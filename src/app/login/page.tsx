@@ -24,7 +24,7 @@ function LoginPageClient() {
     (window as any).RUNTIME_CONFIG?.STORAGE_TYPE !== 'localstorage';
 
   // 是否允许注册
-  const enableRegister =
+  const enableRegister = true
     typeof window !== 'undefined' &&
     Boolean((window as any).RUNTIME_CONFIG?.ENABLE_REGISTER);
 
